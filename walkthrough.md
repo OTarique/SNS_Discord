@@ -11,7 +11,7 @@ Below is a quick diagram of the architecture
 
 # Table of Contents
 
-- [1. Discord webook](#1-discord-webhook)
+- [1. Discord webhook](#1-discord-webhook)
 - [2. Setting up your Terraform environment](#2-setting-up-your-terraform-environment)
 
 ## 1. Discord webhook
@@ -24,7 +24,7 @@ Ensure you have copied the webhook URL after it gets generated.
 
 ### 2.1 Providers template
 
-You can access the template file here: [providers.tf](https://www.github.com/OTarique/SNS_Discord/providers.tf)
+You can access the template file here: [providers.tf](https://github.com/OTarique/SNS_Discord/blob/main/providers.tf)
 
 Please ensure you edit the following fields based on your AWS region and profile name as configured on your machine.
 
@@ -36,16 +36,16 @@ provider "aws" {
 ```
 ### 2.2 Variables templates
 
-Please edit the variable names and descriptions as you see fit in the [variables.tf](https://www.github.com/OTarique/SNS_Discord/variables.tf) file.
+Please edit the variable names and descriptions as you see fit in the [variables.tf](https://github.com/OTarique/SNS_Discord/blob/main/variables.tf) file.
 
-Thereafter, edit the [terraform.tfvars](https://www.github.com/OTarique/SNS_Discord/terraform.tfvars) with the actual values for the variables. Important that you paste the webhook url in the applicable variable as this will be needed later.
+Thereafter, edit the [terraform.tfvars](https://github.com/OTarique/SNS_Discord/blob/main/terraform.tfvars) with the actual values for the variables. Important that you paste the webhook url in the applicable variable as this will be needed later.
 
 ```ruby
 discord_webhook = "{enter your webhook here}"
 ```
 ## 3. Main configurations
 
-All the configurations needed in your AWS account is setup in the [main.tf](https://www.github.com/OTarique/SNS_Discord/main.tf)
+All the configurations needed in your AWS account is setup in the [main.tf](https://github.com/OTarique/SNS_Discord/blob/main/main.tf)
 
 You can definitely split up each configuration into its own .tf file if you prefer.
 

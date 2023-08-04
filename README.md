@@ -11,4 +11,4 @@ Below is a quick architecture diagram:
 
 
 
-Access the [walkthrough](https://www.github.com/OTarique/SNS_Discord/walkthrough.md) on how to set this up for your environment using Terraform. 
+Access the [walkthrough](https://github.com/OTarique/SNS_Discord/blob/main/walkthrough.md) on how to set this up for your environment using Terraform. 
