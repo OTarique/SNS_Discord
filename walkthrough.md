@@ -322,7 +322,7 @@ After deploying all your resources, you should be able to test that it works as 
 
 Below is an example of what it looks like in Discord for an alarm created against the number of invocation for a lambda function. I set the threshold to a low value such that the alarm triggers after a small number of invocations.
 
-![Alt text](image.png)
+![Alt text](image-1.png)
 
 ## 5. References
 
