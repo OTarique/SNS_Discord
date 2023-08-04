@@ -22,7 +22,7 @@ def lambda_handler(event,context):
     trigger = message['Trigger']['MetricName']
     description = message['AlarmDescription']
 
-    #Generate message to display in Discord using the variables
+    #Generate message to pass to Discord
     discord_message =  [
         {
           "name": "Alarm name",
