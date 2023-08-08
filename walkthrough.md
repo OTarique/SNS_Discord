@@ -4,9 +4,9 @@ This walkthrough will provide step-by-step instructions on how to setup SNS noti
 
 Please note that this focuses on sending Cloudwatch alarm notifications but can definitely be adapted to any other service that can utilise AWS SNS (as long as you are aware of the message format).
 
-Below is a quick diagram of the architecture
+Below is a quick diagram of the architecture:
 
-
+![Alt text](image-1.png)
 
 
 # Table of Contents
