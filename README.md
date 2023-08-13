@@ -8,7 +8,7 @@ Albeit this project focuses on Cloudwatch Alarm alerts, it can definitely be ada
 
 Below is a quick architecture diagram:
 
-
+![Alt text](architecture.jpg)
 
 
 Access the [walkthrough](https://github.com/OTarique/SNS_Discord/blob/main/walkthrough.md) on how to set this up for your environment using Terraform. 

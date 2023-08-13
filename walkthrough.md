@@ -6,7 +6,7 @@ Please note that this focuses on sending Cloudwatch alarm notifications but can 
 
 Below is a quick diagram of the architecture:
 
-![Alt text](image-1.png)
+![Alt text](architecture.jpg)
 
 
 # Table of Contents
