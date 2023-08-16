@@ -67,7 +67,7 @@ def lambda_handler(event,context):
     #Get Discrod Webhook from Parameter Store
     webhook_url = ssm.get_parameter(Name=os.environ['ssm_name'], WithDecryption=True)
     
-    #make request and hopefully a notification appearing in your Discord channel 
+    #make request and hopefully a notification will be appearing in your Discord channel 
     headers = {'content-type': 'application/json'}
     response = requests.post(webhook_url['Parameter']['Value'], data=json.dumps(discord_webhook_data),
                                  headers=headers)
